@@ -9,4 +9,4 @@ cmake -B build
 cmake --build build --target touchviewer
 
 # 4. Запуск приложения
-./build/source/app/touchviewer.app/Contents/MacOS/touchviewer
+./build/source/app/touchviewer (На Linux)
