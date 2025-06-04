@@ -9,7 +9,6 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    qRegisterMetaType<QVector<MeasurementData>>();
     qmlRegisterType<FileParser>("com.example", 1, 0, "FileParser");
     qmlRegisterType<DataProcessor>("com.example", 1, 0, "DataProcessor");
 
