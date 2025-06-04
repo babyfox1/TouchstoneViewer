@@ -1,2 +1,6 @@
 build/
 build/
+Testing/Temporary
+.DS_Store
+.gitignore.save
+CMakeLists.txt.user
