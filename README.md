@@ -1,10 +1,12 @@
-1. Клонирование гит репозитория 
+# 1. Клонирование репозитория
 git clone https://github.com/babyfox1/TouchstoneViewer.git
 cd TouchstoneViewer
 
-2. Сборка проекта
-cmake --build . --target touchviewer
+# 2. Создание build-директории и генерация CMake-файлов
+cmake -B build
 
-3. Запуск
-В консоли запустить ./source/app/touchviewer.app/Contents/MacOS/touchviewer
+# 3. Сборка проекта (в build-директории)
+cmake --build build --target touchviewer
 
+# 4. Запуск приложения
+./build/source/app/touchviewer.app/Contents/MacOS/touchviewer
